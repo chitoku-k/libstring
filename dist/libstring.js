@@ -196,4 +196,5 @@ var libstring;
         String.format = StringFormatter.invoke;
     }
 })(libstring || (libstring = {}));
+var module = module || {};
 module.exports = libstring;

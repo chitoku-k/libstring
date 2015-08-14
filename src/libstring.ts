@@ -194,4 +194,5 @@ module libstring {
         String.format = StringFormatter.invoke;
     }
 }
+var module: any = module || {};
 export = libstring;
